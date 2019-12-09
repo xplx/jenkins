@@ -84,12 +84,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <outputDirectory>src/main/docker</outputDirectory>
-					<jvmArguments>
-						-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
-					</jvmArguments>
-                </configuration>
 			</plugin>
 			<!-- Docker maven plugin -->
 			<!--<plugin>
